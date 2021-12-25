@@ -1,0 +1,20 @@
+{
+  "name": "nft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  },
+  "repository": "git+https://github.com/AlwaysBeMyDay1/NFT.git",
+  "author": "AlwaysBeMyDay1 <80505979+AlwaysBeMyDay1@users.noreply.github.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlwaysBeMyDay1/NFT/issues"
+  },
+  "homepage": "https://github.com/AlwaysBeMyDay1/NFT#readme",
+  "dependencies": {
+    "typescript": "^4.5.4"
+  }
+}
