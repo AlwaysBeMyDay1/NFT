@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES3",
+    "sourceMap": true,
+    "outDir": "dist" //컴파일 되면 dist 파일로
+  },
+  "include": ["src/**/*"], //src 안에 컴파일
+  "exclude": ["node_modules"]
+}
