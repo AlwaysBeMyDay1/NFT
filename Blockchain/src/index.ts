@@ -1,19 +1,20 @@
-interface Human {
-  name: string;
-  age: number;
-  gender: string;
+class Human{
+  public name:string;
+  public age:number;
+  public gender:string;
+  constructor(name:string,age:number,gender?:string){
+    this.name=name;
+    this.age=age;
+    this.gender=gender;
+  }
 }
 
-const person = {
-  name: "Dan",
-  age: 24,
-  gender: "male",
-};
+const dan = new Human("Dan",24,"male");
 
-const sayHi = (person: Human): string => {
+const sayHi = (person): string => {
   return `${person.name} 넌${person.age}살이구나 ${person.gender}고.`;
 };
 
-console.log(sayHi(person));
+console.log(sayHi(dan));
 
-export {};
+export {}; 
